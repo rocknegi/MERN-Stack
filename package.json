@@ -1,5 +1,5 @@
 {
-  "name": "MERN",
+  "name": "mern",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -15,16 +15,27 @@
     "nodemon": "^1.17.5",
     "prop-types": "^15.6.2",
     "react-markdown": "^3.3.4",
+    "react-scripts": "^1.1.4",
     "whatwg-fetch": "^2.0.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:server": "cd backend && nodemon server.js --exec babel-node --presets es2015,stage-0",
     "start:client": "cd client && yarn start",
-    "start:dev": "concurrently \"yarn start:server\" \"yarn start:client\""
+    "start": "concurrently \"yarn start:server\" \"yarn start:client\""
   },
   "devDependencies": {
     "babel-eslint": "^8.2.5",
     "eslint": "^5.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocknegi/MERN-Stack.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/rocknegi/MERN-Stack/issues"
+  },
+  "homepage": "https://github.com/rocknegi/MERN-Stack#readme",
+  "description": ""
 }
